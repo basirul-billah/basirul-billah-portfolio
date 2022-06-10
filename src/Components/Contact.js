@@ -1,15 +1,16 @@
 import React from 'react';
+import resume from '../assets/Md-Basirul-Billah_Frontend-Developer_Resume_2.pdf'
 
 const Contact = () => {
     return (
-        <div>
+        <div id='contact'>
             <div>
                 <div className='text-center mb-10 flex flex-col justify-center items-center'>
-                    <h3 className='text-2xl font-bold text-accent'>Contact Me</h3>
-                    <h1 className='text-4xl font-bold'>Let's Talk About Your Project</h1>
+                    <h3 className='lg:text-2xl font-bold text-accent'>Contact Me</h3>
+                    <h1 className='lg:text-4xl font-bold'>Let's Talk About Your Project</h1>
                     <div className='bg-accent w-60 h-1 mt-3' />
                 </div>
-                <div className='border rounded-xl p-5 flex flex-col justify-center items-center'>
+                <div className='border rounded-xl p-5 m-5 lg:m-0 flex flex-col justify-center items-center'>
                     <form action="https://formsubmit.co/c14d74b05c8bd3b029fe6f4ffab259c2" method="POST">
                         <div className='flex gap-3'>
                             <div className="form-control w-full max-w-xs">
@@ -37,7 +38,7 @@ const Contact = () => {
                             </label>
                             <textarea type="text" name="message" placeholder="write your message here" className="input input-bordered h-32" required/>
                         </div>
-                        <button className="btn btn-accent">Submit</button>
+                        <a href={resume} className="btn btn-accent text-white">Submit</a>
                     </form>
                 </div>
             </div>

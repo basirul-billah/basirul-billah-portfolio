@@ -1,16 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
+import resume from '../assets/Md-Basirul-Billah_Frontend-Developer_Resume_2.pdf'
 
 const Navbar = () => {
     const navlinks = (
         <>
-            <li><Link to='#about'>About</Link></li>
-            <li><Link to='#projects'>Projects</Link></li>
-            <li><Link to='#contact'>Contact</Link></li>
+            <li><Link to='/home#about'>About</Link></li>
+            <li><Link to='/home#projects'>Projects</Link></li>
+            <li><Link to='/home#contact'>Contact</Link></li>
         </>
     )
     return (
-        <div className="navbar bg-base-100 drop-shadow-lg text-neutral fixed z-50">
+        <div className="navbar bg-base-100 drop-shadow-lg text-neutral lg:fixed z-50">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -20,7 +21,7 @@ const Navbar = () => {
                         {navlinks}
                     </ul>
                 </div>
-                <Link to='/home' className="btn btn-ghost normal-case text-3xl text-accent">Basirul Billah</Link>
+                <Link to='/home' className="btn btn-ghost normal-case text-xl lg:text-3xl text-accent">Basirul Billah</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0 font-bold">
@@ -28,7 +29,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-accent">Resume</a>
+                <a href={resume} target='_blank' rel="noreferrer" className="btn btn-sm btn-accent text-white lg:btn lg:btn-accent lg:text-white ">Resume</a>
             </div>
         </div>
     );

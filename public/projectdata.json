@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Fidget Warehouse",
+        "description": "A warehouse management software with authentication.",
+        "github": "https://github.com/basirul-billah/fidget-warehouse",
+        "live": "",
+        "image1": "https://i.ibb.co/DL6rb8c/fidget-warehouse.jpg"
+    },
+    {
+        "name": "Auto Parts Manufacturer",
+        "description": "An automotive parts manufacturer website for ordering and managing auto parts.",
+        "github": "https://github.com/basirul-billah/auto-parts-manufacturer",
+        "live": "",
+        "image1": "https://i.ibb.co/RTNQbzn/auto-parts.jpg"
+    },
+    {
+        "name": "Lawyer & Attorney",
+        "description": "A warehouse management software with authentication.",
+        "github": "https://github.com/basirul-billah/lawyer-and-attorney",
+        "live": "",
+        "image1": "https://i.ibb.co/jRQZxrK/lawyer-attorney.jpg"
+    },
+    {
+        "name": "Sci Axcel Toys",
+        "description": "A simple e-commerce implemented using localStorage.",
+        "github": "https://github.com/basirul-billah/sci-axcel-toys",
+        "live": "",
+        "image1": "https://i.ibb.co/Jm93j6y/sci-axcel.jpg"
+    },
+    {
+        "name": "Penguine Fashion",
+        "description": "A simple e-commerce website built with tailwind.",
+        "github": "https://github.com/basirul-billah/penguin-fashion-tailwind",
+        "live": "",
+        "image1": "https://i.ibb.co/gSmvpg7/penguine.jpg"
+    }
+]

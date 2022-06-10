@@ -6,7 +6,7 @@ import Projects from '../Components/Projects';
 
 const Home = () => {
     return (
-        <div className="p-32">
+        <div className="lg:p-32">
             <Banner></Banner>
             <About id='about'></About>
             <Projects></Projects>
