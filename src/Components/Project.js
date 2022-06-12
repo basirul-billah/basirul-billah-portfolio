@@ -1,7 +1,8 @@
 import React from 'react';
 
-const Project = ({project}) => {
-    const {name, description, github, image1} = project;
+const Project = ({ project }) => {
+    const { name, description, github, image1 } = project;
+    
     return (
         <div>
             <div className="card w-auto bg-base-100 shadow-xl image-full relative">

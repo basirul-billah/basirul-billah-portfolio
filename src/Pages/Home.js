@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div className="lg:p-32">
             <Banner></Banner>
-            <About id='about'></About>
+            <About></About>
             <Projects></Projects>
             <Contact></Contact>
         </div>

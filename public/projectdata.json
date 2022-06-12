@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "name": "Fidget Warehouse",
         "description": "A warehouse management software with authentication.",
         "github": "https://github.com/basirul-billah/fidget-warehouse",
@@ -7,6 +8,7 @@
         "image1": "https://i.ibb.co/DL6rb8c/fidget-warehouse.jpg"
     },
     {
+        "id": 2,
         "name": "Auto Parts Manufacturer",
         "description": "An automotive parts manufacturer website for ordering and managing auto parts.",
         "github": "https://github.com/basirul-billah/auto-parts-manufacturer",
@@ -14,6 +16,7 @@
         "image1": "https://i.ibb.co/RTNQbzn/auto-parts.jpg"
     },
     {
+        "id": 3,
         "name": "Lawyer & Attorney",
         "description": "A warehouse management software with authentication.",
         "github": "https://github.com/basirul-billah/lawyer-and-attorney",
@@ -21,6 +24,7 @@
         "image1": "https://i.ibb.co/jRQZxrK/lawyer-attorney.jpg"
     },
     {
+        "id": 4,
         "name": "Sci Axcel Toys",
         "description": "A simple e-commerce implemented using localStorage.",
         "github": "https://github.com/basirul-billah/sci-axcel-toys",
@@ -28,6 +32,7 @@
         "image1": "https://i.ibb.co/Jm93j6y/sci-axcel.jpg"
     },
     {
+        "id": 5,
         "name": "Penguine Fashion",
         "description": "A simple e-commerce website built with tailwind.",
         "github": "https://github.com/basirul-billah/penguin-fashion-tailwind",

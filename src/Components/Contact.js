@@ -1,5 +1,4 @@
 import React from 'react';
-import resume from '../assets/Md-Basirul-Billah_Frontend-Developer_Resume_2.pdf'
 
 const Contact = () => {
     return (
@@ -38,7 +37,7 @@ const Contact = () => {
                             </label>
                             <textarea type="text" name="message" placeholder="write your message here" className="input input-bordered h-32" required/>
                         </div>
-                        <a href={resume} className="btn btn-accent text-white">Submit</a>
+                        <button className="btn btn-accent text-white">Submit</button>
                     </form>
                 </div>
             </div>

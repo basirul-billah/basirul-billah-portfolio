@@ -1,17 +1,19 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import resume from '../assets/Md-Basirul-Billah_Frontend-Developer_Resume_2.pdf'
+import resume from '../assets/Md-Basirul-Billah_Frontend-Developer_Resume_2.pdf';
+import './componentStyles.css';
 
 const Navbar = () => {
     const navlinks = (
         <>
             <li><Link to='/home#about'>About</Link></li>
+            <li><Link to='/blog'>Blog</Link></li>
             <li><Link to='/home#projects'>Projects</Link></li>
             <li><Link to='/home#contact'>Contact</Link></li>
         </>
     )
     return (
-        <div className="navbar bg-base-100 drop-shadow-lg text-neutral lg:fixed z-50">
+        <div className="navbar bg-base-100 drop-shadow-lg text-neutral lg:fixed top-0 z-50">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -29,7 +31,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href={resume} target='_blank' rel="noreferrer" className="btn btn-sm btn-accent text-white lg:btn lg:btn-accent lg:text-white ">Resume</a>
+                <a href={resume} target='_blank' rel="noreferrer" className="btn btn-sm btn-accent text-white lg:btn lg:btn-accent lg:text-white">Resume</a>
             </div>
         </div>
     );
